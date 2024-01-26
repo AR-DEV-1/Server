@@ -1,6 +1,6 @@
 // main.c
 
-#include "server.h"
+#include "include/server.h"
 
 int main() {
     const int PORT = 8080;
