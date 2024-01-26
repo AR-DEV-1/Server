@@ -1,6 +1,6 @@
 // server.c
 
-#include "server.h"
+#include "include/server.h"
 
 void init_server(Server *server, int port) {
     server->server_socket = socket(AF_INET, SOCK_STREAM, 0);
